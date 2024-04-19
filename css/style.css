@@ -1,0 +1,401 @@
+body {
+    color: #1c1c1c;
+    overflow-x: hidden;
+}
+
+.topbar {
+    margin-left: 12%;
+}
+
+.navbar {
+    float: right;
+    margin-right: 18%;
+    margin-top: 0.6em;
+}
+
+.navpage {
+    color: #1c1c1c;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+    opacity: 0.6;
+    transition: opacity 0.1s;
+}
+
+.navpage.selected {
+    font-weight: 900;
+    opacity: 1;
+}
+
+.navpage.selected:hover {
+    opacity: 1;
+}
+
+.navpage:hover {
+    opacity: 1;
+}
+
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: -25px;
+    opacity: 0.8;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.banner {
+    background: url("../assets/banner.jpeg") no-repeat fixed center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 110%;
+    height: 600px;
+    margin-left: -2%;
+    margin-top: 10px;
+    background-size: auto 100%;
+}
+
+.banner-info {
+    background: url("../assets/banner-info.png") no-repeat fixed center center ;
+    height: 400px;
+}
+
+.banner-germania {
+    background: url("../assets/banner-germania.png") no-repeat fixed center center ;
+    height: 400px;
+}
+
+.banner-italia {
+    background: url("../assets/banner-italia.png") no-repeat fixed center center ;
+    height: 400px;
+}
+
+.banner-olanda {
+    background: url("../assets/banner-olanda.png") no-repeat fixed center center ;
+    height: 400px;
+}
+
+.banner-danemarca {
+    background: url("../assets/banner-danemarca.png") no-repeat fixed center center ;
+    height: 400px;
+}
+
+.banner-finlanda {
+    background: url("../assets/banner-finlanda.png") no-repeat fixed center center ;
+    height: 400px;
+}
+
+.banner-franta {
+    background: url("../assets/banner-franta.png") no-repeat fixed center center ;
+    height: 400px;
+}
+
+.banner-spania {
+    background: url("../assets/banner-spania.png") no-repeat fixed center center ;
+    height: 400px;
+}
+
+.banner-arte {
+    background: url("../assets/banner-arte.png") no-repeat fixed center center ;
+    height: 400px;
+}
+
+.banner-bussiness {
+    background: url("../assets/banner-bussiness.png") no-repeat fixed center center ;
+    height: 400px;
+}
+
+.banner-drept {
+    background: url("../assets/banner-drept.png") no-repeat fixed center center ;
+    height: 400px;
+}
+
+.banner-inginerie {
+    background: url("../assets/banner-inginerie.png") no-repeat fixed center center ;
+    height: 400px;
+}
+
+.banner-litere {
+    background: url("../assets/banner-litere.png") no-repeat fixed center center ;
+    height: 400px;
+}
+
+.banner-medicina {
+    background: url("../assets/banner-medicina.png") no-repeat fixed center center ;
+    height: 400px;
+}
+
+.banner-mediu {
+    background: url("../assets/banner-mediu.png") no-repeat fixed center center ;
+    height: 400px;
+}
+
+.banner-sociale {
+    background: url("../assets/banner-sociale.png") no-repeat fixed center center ;
+    height: 400px;
+}
+
+.banner-stiinte {
+    background: url("../assets/banner-stiinte.png") no-repeat fixed center center ;
+    height: 400px;
+}
+
+.content {
+    width: 60%;
+    margin: auto;
+}
+
+.subjects {
+    width: 80%;
+    margin-left: 14%;
+}
+
+
+.subject {
+    width: 200px;
+    height: 140px;
+    margin: 0 10px 10px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+    background-color: #e9e9ed;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.subject:hover {
+    background-color: #d0d0d7;
+}
+
+.subject-icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px 5px 5px 5px;
+}
+
+.country {
+    width: 100%;
+    margin: 20px 10px 10px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.country:hover {
+    background-color: #f0f0f0;
+}
+
+.country-preview {
+    display: inline-block;
+}
+
+.country-image {
+    width: 200px;
+    height: 100%;
+}
+
+.country-info {
+    display: inline-block;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1c1c1c;
+}
+
+.country-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.flag {
+    width: 30px;
+    margin-right: 8px;
+    margin-bottom: -4px;
+}
+
+.country-tags {
+    margin-top: 10px;
+
+}
+
+.resurse {
+    margin-left: 20px;
+}
+
+.resursa {
+    margin-bottom: 10px;
+}
+
+.resursa-titlu {
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.icon-resursa {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.nume-resursa {
+    font-size: x-large;
+}
+
+.footer {
+    background-color: #cccccc;
+    margin-top: 150px;
+    width: 120%;
+    height: 100%;
+    margin-left: -10%;
+    margin-bottom: -50px;
+    padding-bottom: 2%;
+    bottom: 0;
+}
+
+
+#content {
+    padding-bottom:130px;
+} /* FOOTER HEIGHT */
+
+.footer-content {
+    margin: 0 15% 0 15%;
+    height: 100%;
+    background-color: #cccccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-section {
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+    background-color: #cccccc;
+}
+
+.right {
+    float: right;
+}
+
+.tag {
+    padding: 2px 8px 2px 8px;
+    border-radius: 20px;
+}
+
+.red {
+    background: #ff595e;
+    color: white;
+}
+
+.green {
+    background: #8ac926;
+}
+
+.yellow {
+    background: #ffca3a;
+}
+
+.blue {
+    background: #1982c4;
+}
+
+.purple {
+    background: #6a4c93;
+}
+
+.orange {
+    background: #ff9f1c;
+}
+
+.black {
+    background: #1c1c1c;
+    color: white;
+}
+
+.country-description {
+    display: inline-block;
+    width: 800px;
+}
+
+.link-style {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.descriere {
+    font-size: large;
+}
+
+.back {
+    color: #1c1c1c;
+    text-decoration: none;
+    font-size: 45px;
+    margin-right: 15px;
+}
+
+.facultate {
+    width: 500px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid gray;
+    margin-bottom: 20px;
+}
+
+.logo-facultate {
+    width: 5%;
+    height: 100%;
+    padding: 20px;
+}
+
+.descriere-facultate {
+    width: 34%;
+    height: 100%;
+    margin-top: 10px;
+    font-size: small;
+}
+
+.link-facultate {
+    width: 26%;
+    height: 100%;
+}
+
+.buton-facultate {
+    border: none;
+    background-color: #337ab7;
+    color: white;
+    width: 120px;
+    height: 30px;
+    margin-top: 25px;
+    transition: background-color ease-in-out 0.2s;
+}
+
+.buton-facultate:hover {
+    background-color: #286090;
+}
+
+button {
+    cursor: pointer;
+}
+
+.inline {
+    display: inline-block;
+    vertical-align:top;
+}
+
+.contact {
+    font-size: large;
+    margin-left: 50px;
+}
+
+.contact-titlu {
+    margin-left: 20px;
+    font-size: xx-large;
+    margin-top: 70px;
+}
